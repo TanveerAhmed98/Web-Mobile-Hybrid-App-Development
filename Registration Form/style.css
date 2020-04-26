@@ -1,0 +1,39 @@
+#heading{
+    text-align: center;
+}
+h1{
+     color: mediumblue;
+}
+#form{
+    text-align: center;
+    BORDER: 1px;
+    background: mediumblue;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 4mm;
+}
+td {
+    padding: 15px;
+}
+#thankyou{
+    text-align: center;
+    font-weight: 200;
+}
+p{
+    color: crimson;
+    font-size: 10mm;
+}
+a{
+    font-size: 5mm;
+}
+h2{
+    font-size: 10mm;
+}
+#thbody{
+    background: greenyellow;
+}
+h3{
+    font-size: 5mm;
+    color: brown;
+}
+
