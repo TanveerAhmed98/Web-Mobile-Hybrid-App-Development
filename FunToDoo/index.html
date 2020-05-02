@@ -19,41 +19,46 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent" >
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <b><a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Home <span class="sr-only">(current)</span></a></b>
+        <b><a class="btn btn-outline-success my-2 my-sm-0" href="index.html" style=" border: none;">Home <span class="sr-only">(current)</span></a></b>
       </li>
-      <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;" href="#">Movies</a>
+      <li class="nav-item dropdown">
+        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">Movies</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">Hollywood</a></li><li><a href="#" style="color: whitesmoke;">Bollywood</a></li><li><a href="#" style="color: whitesmoke;">Hindi Dubbed</a></li></ul>
       </li>
-     <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Games</a>
+     <li class="nav-item dropdown">
+      <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">Games</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">Android Games</a></li><li><a href="#" style="color: whitesmoke;">PC Games</a></li></ul>
       </li>
-      <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Softwares</a>
+      <li class="nav-item dropdown">
+        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">Softwares</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">Android Apps</a></li><li><a href="#" style="color: whitesmoke;">Windows Softwares</a></li></ul>
       </li>
-      <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Music</a>
+      <li class="nav-item dropdown">
+        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">Music</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">Audio Songs</a></li><li><a href="#" style="color: whitesmoke;">Video Songs</a></li></ul>
       </li>
-      <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Videos</a>
+      <li class="nav-item dropdown">
+        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">Videos</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">Funny</a></li><li><a href="#" style="color: whitesmoke;">Documentaries</a></li><li><a href="#" style="color: whitesmoke;">Interestings</a></li></ul>
       </li>
-      <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Web Series</a>
+      <li class="nav-item dropdown">
+        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">WebSeries</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">English</a></li><li><a href="#" style="color: whitesmoke;">Hindi Dubbed</a></li></ul>
       </li>
-      <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Online Games</a>
+      <li class="nav-item dropdown">
+        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">Wallpapers</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">Android</a></li><li><a href="#" style="color: whitesmoke;">PC/Laptop</a></li></ul>
       </li>
-      <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Wallpapers</a>
-      </li>
-       <li class="nav-item">
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#" style=" border: none;">Islamic</a>
+       <li class="nav-item dropdown">
+        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" href="#" style=" border: none;"  href="#">Isamic</a><span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#" style="color: whitesmoke;">Naats</a></li><li><a href="#" style="color: whitesmoke;">Bayans</a></li><li><a href="#" style="color: whitesmoke;">Qawalis</a></li></ul>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+    <div class="form-inline my-2 my-lg-0">
+    <form id="frmSearch" class="search2 " method="get" action="default.html" />
+    <input class="search2 form-control mr-sm-2" id="txtSearch" type="text" 
+    name="serach_bar" size="30" maxlength="40"  placeholder="Search Here...."/>
+    <input class="search1 btn btn-outline-success my-2 my-sm-0" type="submit" name="submition" value="Search"/>
+    <input class="search2 " type="hidden" name="sitesearch" value="default.html" />
+    <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+    window.location =  document.getElementById('txtSearch').value ;
+    return false;}
+    </script>
+    </div> 
+    </div>
 </nav>
 <div class="content">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
@@ -84,29 +89,29 @@
 </div>
 <div id="heading" style="background-color: black;color: whitesmoke;">
         <h1 style="padding: 5mm;text-align: left;;">Latest Movies</h1>
-        <figure ><img src="images/6.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Extraction (2020)</figcaption></figure>
-        <figure ><img src="images/7.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Angrezi Medium (2020)</figcaption></figure>
-        <figure ><img src="images/8.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Baaghi 3 (2020)</figcaption></figure>
-        <figure ><img src="images/9.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">The Way Back (2020)</figcaption></figure>
-        <figure ><img src="images/10.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Guns of Banaras (2020)</figcaption></figure>
+        <figure ><img src="images/6.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Extraction (2020)</figcaption></figure>
+        <figure ><img src="images/7.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Angrezi Medium (2020)</figcaption></figure>
+        <figure ><img src="images/8.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Baaghi 3 (2020)</figcaption></figure>
+        <figure ><img src="images/9.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>The Way Back (2020)</figcaption></figure>
+        <figure ><img src="images/10.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Guns of Banaras (2020)</figcaption></figure>
         <figure ><img src="images/11.jpg" alt="image not found" width="150px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;color: black;">aaaaaaaa</figcaption></figure>
       </div>
 <div id="heading" style="background-color: black;color: whitesmoke;">
   <h1 style="padding: 5mm;text-align: left;">Latest Games</h1>
-  <figure ><img src="images/12.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">MotoGP</figcaption></figure>
-  <figure ><img src="images/13.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Need For Speed Payback</figcaption></figure>
-  <figure ><img src="images/14.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Jumanji</figcaption></figure>
-  <figure ><img src="images/15.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Grand Theft Auto V</figcaption></figure>
-  <figure ><img src="images/16.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Call of Duty Modern Warfare</figcaption></figure>
+  <figure ><img src="images/12.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>MotoGP</figcaption></figure>
+  <figure ><img src="images/13.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Need For Speed Payback</figcaption></figure>
+  <figure ><img src="images/14.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Jumanji</figcaption></figure>
+  <figure ><img src="images/15.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Grand Theft Auto V</figcaption></figure>
+  <figure ><img src="images/16.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Call of Duty Modern Warfare</figcaption></figure>
   <figure ><img src="images/11.jpg" alt="image not found" width="150px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;color: black;">aaaaaaaa</figcaption></figure>
 </div>
 <div id="heading" style="background-color: black;color: whitesmoke;">
   <h1 style="padding: 5mm;text-align: left;">Latest WebSeries</h1>
-  <figure ><img src="images/17.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Money Heist</figcaption></figure>
-  <figure ><img src="images/18.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Sacred Games</figcaption></figure>
-  <figure ><img src="images/19.jpeg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">MIrzapur</figcaption></figure>
-  <figure ><img src="images/20.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">The Hostages </figcaption></figure>
-  <figure ><img src="images/21.webp" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Game of Thrones</figcaption></figure>
+  <figure ><img src="images/17.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Money Heist</figcaption></figure>
+  <figure ><img src="images/18.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Sacred Games</figcaption></figure>
+  <figure ><img src="images/19.jpeg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Mirzapur</figcaption></figure>
+  <figure ><img src="images/20.jpg" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>The Hostages </figcaption></figure>
+  <figure ><img src="images/21.webp" alt="image not found" width="200px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;">Rating <img src="images/27.jpeg" width="60mm"> <br>Game of Thrones</figcaption></figure>
   <figure ><img src="images/11.jpg" alt="image not found" width="150px" height="250px" style="padding: 1mm;"><figcaption style="text-align: center;color: black;">aaaaaaaa</figcaption></figure>
 </div>
 </div>
