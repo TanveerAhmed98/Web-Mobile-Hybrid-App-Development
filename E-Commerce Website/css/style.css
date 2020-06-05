@@ -1,0 +1,217 @@
+.navbar{
+    background-color: orangered !important;
+}
+.navbar > img{
+    width: 60mm !important;
+    height: 20mm !important;
+}
+.nav-link{
+    color: whitesmoke !important;
+    font-size: 4mm;
+}
+.dropdown-menu{
+    background-color: orangered;
+}
+.dropdown-item{
+    color: whitesmoke !important;
+}
+a > img {
+    width:  8mm !important;
+    height: 8mm !important;
+}
+.carousel-item > img {
+    height: 400px;
+}
+.card1{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: orangered;
+    box-shadow: 2px 4px 5px black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card1-image > img {
+    width: 20mm !important;
+    height: 25mm !important;
+    margin-right: 10px;
+}
+.card1-text > h3 {
+       padding-top: 7mm;
+}
+.cards{
+    padding-top: 2mm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+    flex-wrap: wrap;
+}
+.card2{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: orangered;
+    box-shadow: 2px 4px 5px black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card2-image > img {
+    width: 20mm !important;
+    height: 25mm !important;
+    margin-right: 10px;
+}
+.card2-text > h3 {
+       padding-top: 7mm;
+}
+.card3{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: orangered;
+    box-shadow: 2px 4px 5px black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card3-image > img {
+    width: 20mm !important;
+    height: 25mm !important;
+    margin-right: 10px;
+}
+.card3-text > h3 {
+       padding-top: 7mm;
+}
+body{
+    background-color: whitesmoke;
+}
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+.btn {
+    background-color: orangered;
+    border: none;
+}
+.card > img {
+    height: 250px !important;
+}
+.newarrival{
+    margin-top: 30mm !important;
+}
+.card{
+    height: auto !important;
+    margin-bottom: 5px;
+    border-color: black;
+    border-width: 1mm;
+}
+.heading > h1 {
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 40px;
+    background-color: orangered;
+    padding-bottom: 10mm;
+    text-shadow: 2px 2px 4px black;
+}
+.card:hover{
+    background: 20mm;
+    background-color: lightgreen;
+}
+.slideshow{
+    margin-top: 30px;
+}
+.carousel-inner{
+    padding-top: 100px !important;
+}
+.footer{
+    width: 100%;
+    background-color: orangered;
+    height: 70px;
+    text-align: center;
+    color: whitesmoke;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn{
+    background-color:orange;
+    color: lightyellow;
+}
+.form-inline{
+    margin-top: 5px !important;
+    margin-right: 40px;
+}
+form > input{
+    width: 400px !important;
+}
+.card-title{
+    font-size: 4mm;
+}
+.description{
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 5mm;
+    width: 800px;
+    height: 700px;
+    margin-left: 60mm;
+    margin-top: 30mm;
+    display: inline-flex;
+}
+.aboutus-picture > img {
+    width: 400px;
+    height: 600px;
+}
+
+.contact-form{
+    background: orangered;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: whitesmoke;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: orange;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+}
