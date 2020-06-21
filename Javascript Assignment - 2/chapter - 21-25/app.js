@@ -90,7 +90,7 @@ document.write("<br><br>");
 
 //Ans13
 var user_input3 = prompt("Please enter the your name");
-if (user_input3.match("@") || user_input3.match(".") || user_input3.match(",") || user_input3.match("!")){
+if (user_input3.includes("@") || user_input3.includes(".") || user_input3.includes(",") || user_input3.includes("!")){
     document.write("Please enter the valid name");
 }else{
     document.write("Thanks for your input");
@@ -116,8 +116,12 @@ if (message3 == "cake"){
 }
 
 //Ans15
-
-
+var password = prompt("Please enter your password");
+if (password.length >= 6){
+     document.write("Password is valid");
+}else {
+    document.write("Password is not a valid one");
+}
 
 
 
