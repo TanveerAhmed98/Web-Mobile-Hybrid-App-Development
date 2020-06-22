@@ -114,18 +114,34 @@ if (message3 == "cake"){
 }else {
     document.write("Sorry "+message3+" is not available in our bakery");
 }
+document.write("<br><br>");
 
 //Ans15
 var password = prompt("Please enter your password");
-if (password.length >= 6){
+var check = /^[A-Za-z]\w{6, 100}$/;
+if (password.match(check)){
      document.write("Password is valid");
 }else {
     document.write("Password is not a valid one");
 }
+document.write("<br><br>");
 
+//Ans16
+var university = "University of karachi" ;
+var split_it = university.split("");
+document.write(split_it);
+document.write("<br><br>");
 
+//Ans17
+var input4 = "Pakistan";
+var print_last = input4.charAt(input4.length-1)
+document.write(print_last);
+document.write("<br><br>");
 
-
+//Ans18
+var value2 = "The quick brown fox jumps over the lazy dog";
+var word_occurence =value2.match("the");
+document.write(word_occurence);
 
 
 
