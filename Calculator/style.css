@@ -1,0 +1,48 @@
+.main{
+    border: 8px solid lightgreen;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: lightgray;
+    border-radius: 12px;
+}
+.result{
+    width: 99%;
+    background-color: whitesmoke;
+    color:olivedrab;
+    height: 60px;
+    font-size: 50px;
+}
+.cbtn{
+    width: 100%;
+    background-color: greenyellow;
+    margin-top: 10px;
+    border-radius: 12px;
+    height: 50px;
+    font-size: 30px;
+}
+.btn{
+   background-color: greenyellow;
+   width: 170px;
+   margin: 1px;
+   border-radius: 12px;
+   height: 90px;
+   font-size: 25px;
+}
+.hbtn{
+    background-color: greenyellow;
+    width: 260px;
+    border-radius: 12px;
+    height: 90px;
+    font-size: 25px;
+}
+.dbtn{
+    background-color: greenyellow;
+    width: 170px;
+    border-radius: 12px;
+    height: 90px;
+    font-size: 25px;
+}
+body{
+    background-color: black;
+}
