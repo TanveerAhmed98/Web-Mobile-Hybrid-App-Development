@@ -1,0 +1,42 @@
+.heading{
+    color: whitesmoke;
+    background-color: transparent;
+    text-align: center;    
+}
+.time{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    background-color: rgba(56, 23, 45, 0.9);
+    text-align: center;
+    color: white    
+}
+.maindiv{
+    padding-top: 30px;
+}
+body{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    border-bottom: 1px solid orangered;
+    border-top: 1px solid orangered;
+    border-right: 1px solid orangered;
+    border-left: 1px solid orangered;
+}
+mainbtn{
+    text-align: center;
+}
+.btn:hover{
+    background-color: lightgreen;   
+}
