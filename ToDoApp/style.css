@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo-img {
+    display: block;
+    margin: 0px auto;
+    /* position: relative; */
+    /* z-index: 999; */
+    /* bottom: 0; */
+    /* left: 50%; */
+    /* top: 5px; */
+    /* margin-top: -20px; */
+    /* opacity: 0.2; */
+}
+
+#top {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    padding-bottom: 40px;
+    background-color: #EBEBEB;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.todo {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#add,
+#edit {
+    font-size: 25px;
+    color: lightgreen;
+    border-color: lightgreen;
+}
+
+#dltall {
+    font-size: 25px;
+}
+
+#add:hover,
+#edit:hover {
+    color: #EBEBEB;
+    border-color: lightgreen;
+    background-color: lightgreen;
+    text-decoration: none;
+}
+
+#add:focus,
+#edit:focus {
+    text-decoration: none;
+}
+
+#add:focus,
+#add.focus,
+#edit:focus,
+#edit.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem lightgreen;
+}
+
+.btn#edit,
+.btn#dlt {
+    font-size: 15px;
+}
+
+.btn-outline-primary:active {
+    color: lightgreen;
+    border-color: lightgreen;
+    background-color: lightgreen !important;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem lightgreen;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem lightgreen;
+}
+
+li {
+    list-style-type: none;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+}
+
+.task {
+    line-height: 60px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+body{
+    background-color: lightslategray !important;
+}
+.btn-outline-danger{
+    
+}
