@@ -1,0 +1,18 @@
+**CSS3**
+
+1)   in css styling is applied through selectors on html elements.
+2)   we can apply same style rules to multiple html elements by using comma between them.
+3)   declaration in css is divided in two parts. one is property and other is value they are seperated by colon.
+4)   there are three types of css. 1: internal, 2: external, 3: inline.
+5)   internal css is applied in a head tag of a webpage using <style></style> tags.
+6)   external css is linked with a web page by <link> tag with using three attributes href="value", type="value", rel = "value".
+7)   universal selector (*) selects all the elements of a webpage.
+8)   type selector (,) let you apply same style on multiple elements of a webpage.
+9)   class selector (.) selects html elements that contains particular class.
+10)  id selector (#) selects html elements that contains particular id.
+11)  child selector (>) selects child element of a particular class or id.
+12)  descendant selector (space) selects descendant element of a parent element.
+13)  adjacent sibling selector (+) selects one sibling element of a particular element.
+14)  general sibling selector (~) selects all sibling element of a particular element.
+15)  !important attribute is used to clear all previous rules from a html element and applies the current rule.
+16)  opacity reduces the intensity of colour from a html element.

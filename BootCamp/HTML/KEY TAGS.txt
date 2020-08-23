@@ -1,4 +1,4 @@
-** HTML 5 **
+** HTML5 **
 
 1)   <!DOCTYPE html>                     ==> every html page's code starts with this tag.
 2)   <html></html>                       ==> between these two tags complete code of our page is defined.
