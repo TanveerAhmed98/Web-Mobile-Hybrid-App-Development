@@ -1,3 +1,9 @@
 ** JAVASCRIPT ** 
 
-1) 
+1)  alert
+2)  console.log
+3)  document.write
+4)  variables
+5)  data types ( primitive data types: number, string, boolean, null, undefined & complex data types: object, functions)
+6)  typeof
+7)  
