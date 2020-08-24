@@ -1,9 +1,17 @@
 ** JAVASCRIPT ** 
 
-1)  alert
-2)  console.log
-3)  document.write
-4)  variables
-5)  data types ( primitive data types: number, string, boolean, null, undefined & complex data types: object, functions)
-6)  typeof
-7)  
+1)   alert
+2)   console.log
+3)   document.write
+4)   variables
+5)   data types ( primitive data types: number, string, boolean, null, undefined & complex data types: object, functions)
+6)   typeof
+7)   comment
+8)   arithmetic operators (+, -, *, /, %, **)
+9)   assignment operators (+=, -=, *=, /=, %=, **=)
+10)  increment & decrement
+11)  string concatenation
+12)  prompt
+13)  string to number
+14)  comparison operators (==, ===, !=, !==, >, <, >=, <=)
+15)  logical operators (&&, ||, !)
