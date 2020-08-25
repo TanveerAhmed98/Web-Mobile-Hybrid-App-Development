@@ -91,6 +91,28 @@
 // console.log(b);
 // var b = a>40;
 // console.log(!b);
+// console.log(!!b);
+
+// If-Else
+// var score = prompt("What is your score");
+// Number(score);
+// if (score > 70){
+//      console.log("Your grade is A");
+// }else if(score <70 && score >34){
+//      console.log("Your grade is not A");
+// }else if(score<33){
+//     console.log(" You are fail");
+// }else{
+//     console.log("your grade is unknown");
+// }
+
+// For Loop
+// var num = prompt("Please enter the number to print table");
+// for (var i=1;i<=10;i++){
+//    console.log(num*i);
+// }
+
+
 
 
 
