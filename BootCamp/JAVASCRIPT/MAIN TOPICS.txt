@@ -4,7 +4,7 @@
 2)   console.log
 3)   document.write
 4)   variables
-5)   data types ( primitive data types: number, string, boolean, null, undefined & complex data types: object, functions)
+5)   data types ( primitive data types: number, string, boolean, null, undefined)
 6)   typeof
 7)   comment
 8)   arithmetic operators (+, -, *, /, %, **)
@@ -17,3 +17,8 @@
 15)  logical operators (&&, ||, !, !!)
 16)  if-else
 17)  for loop
+18)  break & continue
+19)  arrays
+20)  length property
+21)  push & pop function
+22)  shift & unshift function

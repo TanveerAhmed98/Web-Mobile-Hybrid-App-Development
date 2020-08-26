@@ -112,7 +112,46 @@
 //    console.log(num*i);
 // }
 
+// Break & Continue
+// for (var i=1;i<6;i++){
+//    if(i == 4){
+//     continue;
+// }
+// console.log(i);
+// }
+// for (var i=1;i<6;i++){
+//     if(i == 4){
+//      break;
+//  }
+//  console.log(i);
+//  }
 
+// Arrays
+// var array_data = ["Tanveer", 45, 44.4];
+// console.log(array_data);
+// console.log(array_data[1]);
+// array_data[3]="Sameer";
+// console.log(array_data);
+// array_data[2]="Jahangeer";
+// console.log(array_data);
 
+// Length Property
+// var array_data = ["Sameer", "Jahangeer", "Jaweriya", "Tuqeer"];
+// console.log(array_data.length);
 
+// Push & Pop Function
+// var array_data = ["Tanveer", "Sameer", "Jahangeer"];
+// console.log(array_data);
+// array_data.push("Tuqeer");
+// console.log(array_data);
+// array_data.pop();
+// console.log(array_data);
+
+// Shift & Unshift Function
+// var array_data=["Tanveer", "Sameer", "Jahangeer"];
+// console.log(array_data);
+// array_data.shift();
+// console.log(array_data);
+// array_data.unshift("Tanveer");
+// console.log(array_data);
 
