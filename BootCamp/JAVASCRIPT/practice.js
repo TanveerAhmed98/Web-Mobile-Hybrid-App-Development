@@ -216,3 +216,43 @@
 // var current_date = new Date();
 // console.log(current_date);
 
+// Functions
+// function add(a,b){
+//     return a+b;
+// }
+
+// var a = prompt("PLease enter the first number");
+// var b = prompt("Please enter the second number");
+// console.log("Sum of a & b is: "+add(Number(a),Number(b)));
+// var c = prompt("PLease enter the amount of electricity bill");
+// var d = prompt("Please enter the amount of gas bill");
+// console.log("Total bill to be paid is: "+add(Number(c),Number(d)));
+
+// Switch Statements
+// var day = Number(prompt("Please enter the number"));
+// switch (day){
+//     case 6:
+//         console.log("Today is a saturday");
+//         break;
+//     case 7:
+//         console.log("Today is a sunday");
+//         break;
+//     default:
+//         console.log("Looking forward to the weekend");
+// }
+
+// While Loop
+// var i=1;
+// while(i<10){
+// console.log(i);
+// i++;
+// }
+
+// Do While Loop
+// var i=1;
+//  do{
+//  console.log(i);
+//  i++;
+//  }
+//  while(i<10);
+
