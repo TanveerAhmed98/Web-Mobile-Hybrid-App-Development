@@ -22,3 +22,13 @@
 20)  length property
 21)  push & pop function
 22)  shift & unshift function
+23)  splice function
+24)  slice function
+25)  tolowercase & touppercase function
+26)  indexof & lastindexof functions
+27)  charat & replace functions
+28)  split function
+29)  math's round, ceil & floor functions
+30)  math's random number
+31)  tofixed function
+32)  date object

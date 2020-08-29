@@ -155,3 +155,64 @@
 // array_data.unshift("Tanveer");
 // console.log(array_data);
 
+// Splice Function
+// var arr_data = ["Tanveer", "Jahangeer", "Sameer"];
+// console.log(arr_data);
+// arr_data.splice(1,0,"Tuqeer");
+// console.log(arr_data);
+
+// Slice Function
+// var arr_data = ["Sameer","Jahangeer","Jaweriya","Tuqeer"];
+// console.log(arr_data);
+// var partial_arr_data = arr_data.slice(1,3);
+// console.log(partial_arr_data);
+
+// Tolowercase & Touppercase Function
+
+// var user_input = prompt("What is your name ?");
+// if (user_input.toLowerCase() == "sameer"){
+//     console.log("Oye Tidde")
+// }else{
+//     console.log("User is unknown");
+// }
+// var user_input = prompt("What is your name ?");
+// if (user_input.toUpperCase() == "SAMEER"){
+//     console.log("Oye Tidde")
+// }else{
+//     console.log("User is unknown");
+// }
+
+// Index.of & Lastindexof
+// var data = "to be or not to be"
+// console.log(data.lastIndexOf("be"));
+// console.log(data.indexOf("be"));
+
+// Charat & Replace
+// var data = "to be or not to be";
+// console.log(data.charAt(4));
+// console.log(data.replace("be", "Be"));
+
+// Split
+// var data = "to be or not to be";
+// console.log(data.split(" "));
+
+// Math's Round, Ceil & Floor Functions
+// var score = 24.6;
+// console.log(Math.round(score)); 
+// console.log(Math.ceil(score));
+// console.log(Math.floor(score));
+
+// Math's Random Number
+// var random_number = Math.random();
+// var final_number = (random_number*6)+1;
+// console.log(Math.floor(final_number));
+
+// Tofixed Function
+// var calculation = 5/3;
+// console.log(calculation);
+// console.log(calculation.toFixed(3));
+
+// Date Object
+// var current_date = new Date();
+// console.log(current_date);
+
