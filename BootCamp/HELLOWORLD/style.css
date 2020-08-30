@@ -1,0 +1,8 @@
+#TA{
+     color: darkblue;
+     background-color: yellowgreen;
+     text-align: center;
+}
+#TA > img{
+    height: 500px;
+}
