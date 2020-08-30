@@ -1,8 +1,8 @@
-#TA{
+#T{
      color: darkblue;
      background-color: yellowgreen;
      text-align: center;
 }
-#TA > img{
+#T > img{
     height: 500px;
 }
